@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AZ-HIRE Recruitment Ltd — Connecting top talent with leading employers. Permanent, temporary, and executive recruitment services across the UK." />
+  <title>AZ-HIRE Recruitment Ltd — Where Talent Meets Opportunity</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%231E40AF'/%3E%3Ctext x='50' y='66' font-family='Space Grotesk,sans-serif' font-size='52' font-weight='700' text-anchor='middle' fill='%23F97316'%3EA%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+  <!-- Cursor follower -->
+  <div class="cursor-dot" aria-hidden="true"></div>
+
+  <!-- ============== HEADER ============== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#home" class="logo" aria-label="AZ-HIRE home">
+        <span class="logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="40" height="40" rx="10" fill="url(#logoGrad)" />
+            <path d="M11 12h7a5 5 0 0 1 0 10h-3v6h-4V12Zm4 4v2h3a1 1 0 0 0 0-2h-3Z" fill="#fff"/>
+            <path d="M22 22a6 6 0 1 1 6 6h-6v-4h6a2 2 0 1 0-2-2h-4Z" fill="#F97316"/>
+            <defs>
+              <linearGradient id="logoGrad" x1="0" y1="0" x2="40" y2="40">
+                <stop stop-color="#1E40AF"/>
+                <stop offset="1" stop-color="#06B6D4"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+        <span class="logo-text">
+          <strong>AZ-HIRE</strong>
+          <em>Recruitment Ltd</em>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Primary">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-cta">
+        <a href="tel:+442012345678" class="header-phone" aria-label="Call us">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+          020 1234 5678
+        </a>
+        <a href="#contact" class="btn btn-primary btn-sm">Hire Talent</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============== HERO ============== -->
+  <section class="hero" id="home">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+      <div class="grid-overlay"></div>
+    </div>
+
+    <div class="container hero-inner">
+      <div class="hero-content reveal">
+        <span class="eyebrow">
+          <span class="dot"></span>
+          Now hiring across 12+ sectors
+        </span>
+        <h1 class="hero-title">
+          Where <span class="gradient-text" id="rotatingWord">Top Talent</span>
+          <br/>Meets the Right <span class="underline-mark">Opportunity</span>
+        </h1>
+        <p class="hero-sub">
+          AZ-HIRE Recruitment connects ambitious professionals with companies that value them.
+          Permanent, contract, and executive search — delivered with care, speed, and expertise.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">
+            Find Your Next Role
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#services" class="btn btn-ghost">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+            Explore Services
+          </a>
+        </div>
+
+        <div class="hero-meta">
+          <div class="avatars" aria-hidden="true">
+            <span class="avatar" style="background:linear-gradient(135deg,#f97316,#ec4899)">A</span>
+            <span class="avatar" style="background:linear-gradient(135deg,#06b6d4,#3b82f6)">M</span>
+            <span class="avatar" style="background:linear-gradient(135deg,#10b981,#06b6d4)">S</span>
+            <span class="avatar" style="background:linear-gradient(135deg,#8b5cf6,#ec4899)">R</span>
+            <span class="avatar more">+2k</span>
+          </div>
+          <div class="hero-meta-text">
+            <div class="stars" aria-label="Rated 4.9 out of 5">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+            </div>
+            <span><strong>4.9/5</strong> from 800+ placed candidates</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" data-delay="120">
+        <div class="card-stack">
+          <div class="float-card float-card-1">
+            <div class="float-card-head">
+              <span class="status-dot"></span>
+              <span>New match</span>
+            </div>
+            <div class="float-card-body">
+              <strong>Senior UX Designer</strong>
+              <p>London · Hybrid · £75k–£90k</p>
+              <span class="tag tag-green">92% Match</span>
+            </div>
+          </div>
+          <div class="float-card float-card-2">
+            <div class="float-card-head">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 11h-6M19 8v6"/></svg>
+              <span>Application received</span>
+            </div>
+            <div class="float-card-body">
+              <strong>+12 candidates</strong>
+              <p>in the last 24 hours</p>
+            </div>
+          </div>
+          <div class="float-card float-card-3">
+            <div class="float-card-head">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 7L9 18l-5-5"/></svg>
+              <span>Interview booked</span>
+            </div>
+            <div class="float-card-body">
+              <strong>Marketing Manager</strong>
+              <p>Tomorrow · 2:30 PM</p>
+            </div>
+          </div>
+
+          <div class="hero-orb"></div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#trust" class="scroll-cue" aria-label="Scroll to next section">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ============== TRUST BAR ============== -->
+  <section class="trust" id="trust">
+    <div class="container">
+      <p class="trust-label">Trusted by ambitious teams at</p>
+      <div class="logo-marquee" aria-hidden="true">
+        <div class="logo-track">
+          <span class="brand-logo">NORTHWIND</span>
+          <span class="brand-logo">Luminary<span class="dot-sep">·</span>Co</span>
+          <span class="brand-logo">APEX LABS</span>
+          <span class="brand-logo">Vertex&amp;Co</span>
+          <span class="brand-logo">FINCHLEY</span>
+          <span class="brand-logo">Kestrel Group</span>
+          <span class="brand-logo">BLUEPEAK</span>
+          <span class="brand-logo">Harbor.io</span>
+          <span class="brand-logo">NORTHWIND</span>
+          <span class="brand-logo">Luminary<span class="dot-sep">·</span>Co</span>
+          <span class="brand-logo">APEX LABS</span>
+          <span class="brand-logo">Vertex&amp;Co</span>
+          <span class="brand-logo">FINCHLEY</span>
+          <span class="brand-logo">Kestrel Group</span>
+          <span class="brand-logo">BLUEPEAK</span>
+          <span class="brand-logo">Harbor.io</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== ABOUT US ============== -->
+  <section class="about" id="about">
+    <div class="container about-grid">
+      <div class="about-text reveal">
+        <span class="section-eyebrow">About AZ-HIRE</span>
+        <h2 class="section-title">
+          A recruitment partner that <span class="gradient-text">actually cares</span> about the outcome.
+        </h2>
+        <p class="section-lead">
+          Since 2014, AZ-HIRE Recruitment Ltd has helped over 2,400 professionals find roles
+          they love and supported 380+ companies in building teams that thrive. We blend
+          industry expertise with a personal, human-first approach — because careers change lives.
+        </p>
+
+        <ul class="about-checks" role="list">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 7L9 18l-5-5"/></svg>
+            <span><strong>Specialist consultants</strong> in 12 industry sectors</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 7L9 18l-5-5"/></svg>
+            <span><strong>Average time-to-hire:</strong> just 18 working days</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 7L9 18l-5-5"/></svg>
+            <span><strong>94% retention rate</strong> after the first 12 months</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 7L9 18l-5-5"/></svg>
+            <span><strong>Fully accredited</strong> — REC &amp; ISO 9001 certified</span>
+          </li>
+        </ul>
+
+        <a href="#contact" class="btn btn-primary">
+          Meet the team
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+
+      <div class="about-visual reveal" data-delay="160">
+        <div class="about-image">
+          <div class="image-pattern"></div>
+          <div class="image-content">
+            <div class="img-stat">
+              <span class="img-stat-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </span>
+              <div>
+                <strong>2,400+</strong>
+                <span>careers launched</span>
+              </div>
+            </div>
+            <div class="img-quote">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+              <p>"They listened first, then matched — not the other way around."</p>
+              <span>— Amara K., Placed at Vertex&amp;Co</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stats -->
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-card reveal">
+          <div class="stat-num" data-count="2400" data-suffix="+">0</div>
+          <div class="stat-label">Candidates placed</div>
+        </div>
+        <div class="stat-card reveal" data-delay="80">
+          <div class="stat-num" data-count="380" data-suffix="+">0</div>
+          <div class="stat-label">Partner companies</div>
+        </div>
+        <div class="stat-card reveal" data-delay="160">
+          <div class="stat-num" data-count="18" data-suffix=" days">0</div>
+          <div class="stat-label">Average time-to-hire</div>
+        </div>
+        <div class="stat-card reveal" data-delay="240">
+          <div class="stat-num" data-count="94" data-suffix="%">0</div>
+          <div class="stat-label">12-month retention</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== SERVICES ============== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-eyebrow">Our Services</span>
+        <h2 class="section-title">
+          Recruitment solutions, <span class="gradient-text">tailored to you.</span>
+        </h2>
+        <p class="section-lead">
+          Whether you're scaling a team or searching for your next chapter,
+          we offer flexible engagement models built around real outcomes.
+        </p>
+      </div>
+
+      <div class="bento-grid">
+        <article class="bento-card bento-large reveal">
+          <div class="bento-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 11h-6M19 8v6"/></svg>
+          </div>
+          <h3>Permanent Placements</h3>
+          <p>Long-term hires made simple. We take the time to understand your culture and deliver candidates who stay and thrive — not just who interview well.</p>
+          <a href="#contact" class="card-link">
+            Start hiring
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+        </article>
+
+        <article class="bento-card reveal" data-delay="80">
+          <div class="bento-icon icon-cyan">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h3>Temporary &amp; Contract</h3>
+          <p>Flexible staff for projects, seasonal peaks, or cover — vetted and ready in days.</p>
+          <a href="#contact" class="card-link">
+            Request staff
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+        </article>
+
+        <article class="bento-card reveal" data-delay="140">
+          <div class="bento-icon icon-orange">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15 8.5 22 9.3 17 14.1 18.2 21 12 17.8 5.8 21 7 14.1 2 9.3 9 8.5 12 2"/></svg>
+          </div>
+          <h3>Executive Search</h3>
+          <p>Discreet, senior-level search for C-suite and board appointments that shape the future of your business.</p>
+          <a href="#contact" class="card-link">
+            Confidential search
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+        </article>
+
+        <article class="bento-card bento-wide reveal" data-delay="200">
+          <div class="bento-icon icon-green">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"/><path d="M7 14l4-4 4 4 5-5"/></svg>
+          </div>
+          <div class="bento-content">
+            <h3>Talent Mapping &amp; Market Insight</h3>
+            <p>Salary benchmarks, competitor mapping, and pipeline analysis — strategic intelligence that informs every hiring decision.</p>
+            <a href="#contact" class="card-link">
+              Get the report
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+          <div class="bento-graphic" aria-hidden="true">
+            <div class="bar" style="--h:55%"></div>
+            <div class="bar" style="--h:78%"></div>
+            <div class="bar" style="--h:42%"></div>
+            <div class="bar" style="--h:92%"></div>
+            <div class="bar" style="--h:65%"></div>
+          </div>
+        </article>
+
+        <article class="bento-card reveal" data-delay="260">
+          <div class="bento-icon icon-pink">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          </div>
+          <h3>Career Coaching</h3>
+          <p>CV reviews, interview prep, and 1:1 career strategy from coaches who've hired at the top.</p>
+          <a href="#contact" class="card-link">
+            Book a session
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+        </article>
+
+        <article class="bento-card reveal" data-delay="320">
+          <div class="bento-icon icon-purple">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <h3>Global Mobility</h3>
+          <p>International placements with full visa, relocation, and onboarding support.</p>
+          <a href="#contact" class="card-link">
+            Go global
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== CONTACT ============== -->
+  <section class="contact" id="contact">
+    <div class="contact-bg" aria-hidden="true">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+    </div>
+
+    <div class="container contact-inner">
+      <div class="contact-text reveal">
+        <span class="section-eyebrow eyebrow-light">Let's Talk</span>
+        <h2 class="section-title title-light">
+          Ready to find your <span class="gradient-text-warm">next great hire</span> — or your next role?
+        </h2>
+        <p class="section-lead lead-light">
+          Drop us a line and one of our consultants will be in touch within one working day.
+          No pressure, no jargon — just a real conversation.
+        </p>
+
+        <ul class="contact-info" role="list">
+          <li>
+            <span class="ci-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </span>
+            <div>
+              <strong>Visit us</strong>
+              <span>14 Carteret Street, London SW1H 9DA</span>
+            </div>
+          </li>
+          <li>
+            <span class="ci-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+            </span>
+            <div>
+              <strong>Call us</strong>
+              <span>020 1234 5678 · Mon–Fri, 9–6</span>
+            </div>
+          </li>
+          <li>
+            <span class="ci-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </span>
+            <div>
+              <strong>Email us</strong>
+              <span>hello@az-hire.co.uk</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <form class="contact-form reveal" data-delay="120" id="contactForm" novalidate>
+        <h3>Send us a message</h3>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="firstName">First name</label>
+            <input id="firstName" name="firstName" type="text" required autocomplete="given-name" placeholder="Amara" />
+            <span class="field-error" aria-live="polite"></span>
+          </div>
+          <div class="field">
+            <label for="lastName">Last name</label>
+            <input id="lastName" name="lastName" type="text" required autocomplete="family-name" placeholder="Khan" />
+            <span class="field-error" aria-live="polite"></span>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="email">Work email</label>
+          <input id="email" name="email" type="email" required autocomplete="email" placeholder="you@company.com" />
+          <span class="field-error" aria-live="polite"></span>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="company">Company (optional)</label>
+            <input id="company" name="company" type="text" autocomplete="organization" placeholder="Vertex & Co" />
+          </div>
+          <div class="field">
+            <label for="interest">I'm interested in</label>
+            <select id="interest" name="interest" required>
+              <option value="">Choose one…</option>
+              <option>Hiring talent (Permanent)</option>
+              <option>Hiring talent (Contract / Temp)</option>
+              <option>Executive search</option>
+              <option>Finding a new role</option>
+              <option>Career coaching</option>
+              <option>Something else</option>
+            </select>
+            <span class="field-error" aria-live="polite"></span>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="message">Tell us a bit more</label>
+          <textarea id="message" name="message" rows="4" required placeholder="What are you looking for? Timelines, sectors, dream outcome…"></textarea>
+          <span class="field-error" aria-live="polite"></span>
+        </div>
+
+        <label class="checkbox">
+          <input type="checkbox" id="consent" name="consent" required />
+          <span class="checkmark" aria-hidden="true"></span>
+          <span>I agree to be contacted by AZ-HIRE about my enquiry.</span>
+        </label>
+
+        <button type="submit" class="btn btn-primary btn-block">
+          <span class="btn-label">Send message</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </button>
+
+        <p class="form-success" id="formSuccess" hidden>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 7L9 18l-5-5"/></svg>
+          Thanks — your message is in. We'll be in touch within one working day.
+        </p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============== FOOTER ============== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="logo logo-light">
+          <span class="logo-mark" aria-hidden="true">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="40" height="40" rx="10" fill="url(#logoGrad2)"/>
+              <path d="M11 12h7a5 5 0 0 1 0 10h-3v6h-4V12Zm4 4v2h3a1 1 0 0 0 0-2h-3Z" fill="#fff"/>
+              <path d="M22 22a6 6 0 1 1 6 6h-6v-4h6a2 2 0 1 0-2-2h-4Z" fill="#F97316"/>
+              <defs>
+                <linearGradient id="logoGrad2" x1="0" y1="0" x2="40" y2="40">
+                  <stop stop-color="#1E40AF"/>
+                  <stop offset="1" stop-color="#06B6D4"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </span>
+          <span class="logo-text">
+            <strong>AZ-HIRE</strong>
+            <em>Recruitment Ltd</em>
+          </span>
+        </a>
+        <p>
+          A specialist recruitment agency connecting exceptional people with
+          exceptional opportunities across the UK.
+        </p>
+        <div class="socials" role="list">
+          <a href="#" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          </a>
+          <a href="#" aria-label="X / Twitter">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="#" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>For Candidates</h4>
+        <ul role="list">
+          <li><a href="#services">Browse jobs</a></li>
+          <li><a href="#services">Career coaching</a></li>
+          <li><a href="#services">CV resources</a></li>
+          <li><a href="#services">Salary guide</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>For Employers</h4>
+        <ul role="list">
+          <li><a href="#services">Permanent hiring</a></li>
+          <li><a href="#services">Contract staffing</a></li>
+          <li><a href="#services">Executive search</a></li>
+          <li><a href="#services">Talent insights</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul role="list">
+          <li><a href="#about">About us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> AZ-HIRE Recruitment Ltd. Registered in England &amp; Wales · Company No. 09182374</p>
+      <ul class="legal" role="list">
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Cookies</a></li>
+        <li><a href="#">Terms</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
